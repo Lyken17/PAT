@@ -1,0 +1,7 @@
+clear
+echo "\n===================compile information===================="
+clang $1 -lstdc++ 
+echo "==================compiler information===================="
+echo "--------------The program running result is:--------------"
+echo "=========================================================="
+./a.out   

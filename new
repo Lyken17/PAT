@@ -1,0 +1,15 @@
+
+#!/bin/sh
+if [ ! -f $1 ];
+then
+    touch $1
+    echo "#include <iostream>" > $1
+    echo "#include <cstdio>" >> $1
+    echo "#include <stack>" >> $1
+    echo "#include <queue>" >> $1
+    echo "#include <list>" >> $1
+    echo "using namespace std;" >> $1
+    echo 'File successfully created'
+else
+    echo 'This file has existed'
+fi
